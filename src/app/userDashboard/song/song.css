@@ -1,0 +1,23 @@
+.playlist .list-group-item,
+.playlist .list-group-item div {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.thumbs-up {
+    padding: 0.8em;
+    border-radius: 50%;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.playlist .list-group-item:not(.active):hover {
+    background: #333;
+    color: white;
+} 
+.playlist .list-group-item:not(.active):hover .thumbs-up{
+    
+    color: #333;
+} 

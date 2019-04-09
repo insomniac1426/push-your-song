@@ -1,0 +1,28 @@
+.channel-list {
+    margin:5em;
+    padding:2em;
+}
+.channel-list-heading {
+    font-size:1.5em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.channel-list-group .channel-list-item {
+    transition: 0.2s background-color;
+}
+.channel-list-group .channel-list-item:hover {
+    background: #007bff;
+    cursor: pointer;
+    color:white;
+}
+
+@media only screen and (max-width: 500px) {
+    .channel-list {
+        margin: 1em;
+        padding: 1em;
+    }
+}
+
+.channel-list .col-sm-6 {
+    margin-top:1em;
+}

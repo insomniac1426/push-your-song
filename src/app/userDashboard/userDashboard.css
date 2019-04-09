@@ -1,0 +1,30 @@
+.admin-dashboard{
+    margin: 5em;
+    padding: 2em;
+}
+.dashboard-heading {
+    font-size:1.5em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.search-list-results .search-items {
+    transition: 0.2s background-color;
+}
+.search-list-results .search-items:hover {
+    background: #007bff;
+    cursor: pointer;
+    color:white;
+}
+.playlist .list-group-item.active {
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+    .admin-dashboard {
+        margin: 1em;
+        padding: 1em;
+    }
+}
+.admin-dashboard .col-sm-6 {
+    margin-top:1em;
+}

@@ -1,0 +1,26 @@
+.form-group.home-screen-form {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:30%;
+    min-width: 300px;
+}
+.form-group.home-screen-form.card {
+    padding:2%;
+    text-align: center;
+}
+.form-group.home-screen-form.card h3 {
+    margin-bottom:1em;
+    font-weight: 700;
+}
+.form-group.home-screen-form.card input {
+    margin-bottom:1em;
+}
+.form-group.home-screen-form.card .create-button {
+    width:100%;
+    
+}
+.form-group.home-screen-form.card button {
+    width:50%;
+}
